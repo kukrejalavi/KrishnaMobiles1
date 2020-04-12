@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "283803696829",
+    "firebase_url": "https://fir-setup-6d6e6.firebaseio.com",
+    "project_id": "fir-setup-6d6e6",
+    "storage_bucket": "fir-setup-6d6e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283803696829:android:fb317b1ccc220838",
+        "android_client_info": {
+          "package_name": "com.example.krishnamobiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283803696829-92eskpel6loiqu9cq4mv9mhhanqskq28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishnamobiles",
+            "certificate_hash": "5fffcd8d0c3853ba75110ce8392564921b307dff"
+          }
+        },
+        {
+          "client_id": "283803696829-ahdafun6gs7enml7gougijbbbaj1ofq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5FdppyfMcjDFzWi1i-fiQvwIbQtzFw0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283803696829-ahdafun6gs7enml7gougijbbbaj1ofq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/Linearlayoutmargin"
+
+        >
+
+
+        <TextView
+
+            android:id="@+id/shopname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Sound of Music"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Jio"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Lava"
+                android:textSize="30dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Techno"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+
+                android:id="@+id/target1"
+                style="@style/TargetText"
+                />
+
+
+            <TextView
+
+                android:id="@+id/target2"
+                style="@style/TargetText"
+                />
+
+
+            <TextView
+
+                android:id="@+id/target3"
+                style="@style/TargetText"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:id="@+id/done1"
+                style="@style/DoneText"
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/done2"
+                style="@style/DoneText"
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/done3"
+                style="@style/DoneText"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+
+                android:id="@+id/leftover1"
+                style="@style/LeftOverText"
+                />
+
+            <TextView
+
+                android:id="@+id/leftover2"
+                style="@style/LeftOverText"
+                />
+
+            <TextView
+
+                android:id="@+id/leftover3"
+                style="@style/LeftOverText"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

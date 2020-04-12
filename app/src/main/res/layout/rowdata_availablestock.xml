@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    >
+
+    <TextView
+
+        android:id="@+id/modelno"
+
+        android:layout_width="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginLeft="10dp"
+        android:textStyle="normal|italic"
+        android:hint="Model no"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/clr"
+android:inputType="number"
+        android:layout_width="120dp"
+
+        android:layout_height="wrap_content"
+        android:hint="Color"
+
+        android:layout_marginRight="10dp"
+
+        android:textStyle="normal|italic"
+
+        android:textSize="25dp" />
+    <TextView
+
+        android:id="@+id/qty"
+        android:layout_marginRight="10dp"
+        android:layout_width="80dp"
+
+        android:layout_height="wrap_content"
+
+        android:hint="qty"
+        android:textStyle="normal|italic"
+
+        android:textSize="25dp" />
+
+
+
+
+</LinearLayout>

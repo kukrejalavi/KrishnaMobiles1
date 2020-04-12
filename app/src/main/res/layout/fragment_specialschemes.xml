@@ -1,0 +1,114 @@
+<android.support.v4.widget.SwipeRefreshLayout android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true"> <!-- Prevents scrolling location from being overriden by RecyclerView -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                style="@style/Linearlayoutmargin"
+                android:layout_marginBottom="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Jio"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"/>
+
+                <TextView
+                    android:id="@+id/txtview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                style="@style/Linearlayoutmargin"
+                android:layout_marginBottom="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Lava"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"/>
+
+                <TextView
+                    android:id="@+id/txtview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:orientation="vertical"
+                style="@style/Linearlayoutmargin"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Techno"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"/>
+
+                <TextView
+                    android:id="@+id/txtview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

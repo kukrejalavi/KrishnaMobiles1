@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeOrder"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount:"
+            android:textSize="25sp"
+            android:gravity="center_horizontal|left"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/totalamt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center_horizontal|center"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+
+<!--1-->
+    <LinearLayout
+      style="@style/Linearlayoutmargin"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <AutoCompleteTextView
+            android:id="@+id/m1"
+            android:hint="Model No"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginRight="20dp"
+            />
+
+
+
+
+
+        <EditText
+            android:id="@+id/q1"
+            android:layout_toRightOf="@+id/m1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="25sp"
+            android:inputType="number"
+            />
+
+
+
+
+        <Spinner
+            android:id="@+id/c1"
+            android:layout_toRightOf="@id/q1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:drawSelectorOnTop="true"
+android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/ratesymbol"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <EditText
+                    android:layout_toRightOf="@+id/ratesymbol"
+    android:id="@+id/p1"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="5dp"
+    />
+
+
+
+            </RelativeLayout>
+
+        <EditText
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <!--2-->
+    <LinearLayout
+       style="@style/Linearlayoutmargin"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/m2"
+                android:hint="Model No"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginRight="20dp"
+                />
+
+
+
+
+
+            <EditText
+                android:id="@+id/q2"
+                android:layout_toRightOf="@+id/m2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="25sp"
+                android:inputType="number"
+                />
+
+
+
+
+            <Spinner
+                android:id="@+id/c2"
+
+                android:layout_toRightOf="@id/q2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:drawSelectorOnTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/ratesymbol2"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <EditText
+                    android:layout_toRightOf="@+id/ratesymbol2"
+                    android:id="@+id/p2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <!--3-->
+    <LinearLayout
+        style="@style/Linearlayoutmargin"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/m3"
+                android:hint="Model No"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginRight="20dp"
+                />
+
+
+
+
+
+            <EditText
+                android:id="@+id/q3"
+                android:layout_toRightOf="@+id/m3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="25sp"
+                android:inputType="number"
+                />
+
+
+
+
+            <Spinner
+                android:id="@+id/c3"
+
+                android:layout_toRightOf="@id/q3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:drawSelectorOnTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/ratesymbo3"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <EditText
+                    android:layout_toRightOf="@+id/ratesymbo3"
+                    android:id="@+id/p3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <!--4-->
+    <LinearLayout
+        style="@style/Linearlayoutmargin"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/m4"
+                android:hint="Model No"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginRight="20dp"
+                />
+
+
+
+
+
+            <EditText
+                android:id="@+id/q4"
+                android:layout_toRightOf="@+id/m4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="25sp"
+                android:inputType="number"
+                />
+
+
+
+
+            <Spinner
+                android:id="@+id/c4"
+                android:layout_toRightOf="@id/q4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:drawSelectorOnTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/ratesymbol4"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <EditText
+                    android:layout_toRightOf="@+id/ratesymbol4"
+                    android:id="@+id/p4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <!--5-->
+    <LinearLayout
+        style="@style/Linearlayoutmargin"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/m5"
+                android:hint="Model No"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginRight="20dp"
+                />
+
+
+
+
+
+            <EditText
+                android:id="@+id/q5"
+                android:layout_toRightOf="@+id/m5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="25sp"
+                android:inputType="number"
+                />
+
+
+            <!--<NumberPicker-->
+                <!--android:layout_toRightOf="@+id/m5"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/num"-->
+                <!--android:theme="@style/NumberPickerText"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;</NumberPicker>-->
+
+
+
+            <Spinner
+                android:id="@+id/c5"
+
+                android:layout_toRightOf="@id/q5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:drawSelectorOnTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/ratesymbol5"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <EditText
+                    android:layout_toRightOf="@+id/ratesymbol5"
+                    android:id="@+id/p5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/r5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <!--6-->
+
+
+        <LinearLayout
+            style="@style/Linearlayoutmargin"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/m6"
+                    android:hint="Model No"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/q6"
+                    android:layout_toRightOf="@+id/m6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="25sp"
+                    android:inputType="number"
+                    />
+
+
+                <!--<NumberPicker-->
+                <!--android:layout_toRightOf="@+id/m5"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/num"-->
+                <!--android:theme="@style/NumberPickerText"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;</NumberPicker>-->
+
+
+
+                <Spinner
+                    android:id="@+id/c6"
+
+                    android:layout_toRightOf="@id/q6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:drawSelectorOnTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/ratesymbol6"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="₹"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <EditText
+                        android:layout_toRightOf="@+id/ratesymbol6"
+                        android:id="@+id/p6"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/r6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--7-->
+
+
+        <LinearLayout
+            style="@style/Linearlayoutmargin"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/m7"
+                    android:hint="Model No"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/q7"
+                    android:layout_toRightOf="@+id/m7"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="25sp"
+                    android:inputType="number"
+                    />
+
+
+                <!--<NumberPicker-->
+                <!--android:layout_toRightOf="@+id/m5"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/num"-->
+                <!--android:theme="@style/NumberPickerText"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;</NumberPicker>-->
+
+
+
+                <Spinner
+                    android:id="@+id/c7"
+
+                    android:layout_toRightOf="@id/q7"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:drawSelectorOnTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/ratesymbol7"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="₹"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <EditText
+                        android:layout_toRightOf="@+id/ratesymbol7"
+                        android:id="@+id/p7"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/r7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--8-->
+
+
+        <LinearLayout
+            style="@style/Linearlayoutmargin"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/m8"
+                    android:hint="Model No"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/q8"
+                    android:layout_toRightOf="@+id/m8"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="25sp"
+                    android:inputType="number"
+                    />
+
+
+                <!--<NumberPicker-->
+                <!--android:layout_toRightOf="@+id/m5"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/num"-->
+                <!--android:theme="@style/NumberPickerText"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;</NumberPicker>-->
+
+
+
+                <Spinner
+                    android:id="@+id/c8"
+
+                    android:layout_toRightOf="@id/q8"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:drawSelectorOnTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/ratesymbol8"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="₹"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <EditText
+                        android:layout_toRightOf="@+id/ratesymbol8"
+                        android:id="@+id/p8"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/r8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--9-->
+
+
+        <LinearLayout
+            style="@style/Linearlayoutmargin"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/m9"
+                    android:hint="Model No"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/q9"
+                    android:layout_toRightOf="@+id/m9"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="25sp"
+                    android:inputType="number"
+                    />
+
+
+                <!--<NumberPicker-->
+                <!--android:layout_toRightOf="@+id/m5"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/num"-->
+                <!--android:theme="@style/NumberPickerText"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;</NumberPicker>-->
+
+
+
+                <Spinner
+                    android:id="@+id/c9"
+
+                    android:layout_toRightOf="@id/q9"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:drawSelectorOnTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/ratesymbol9"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="₹"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <EditText
+                        android:layout_toRightOf="@+id/ratesymbol9"
+                        android:id="@+id/p9"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/r9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--10-->
+
+
+        <LinearLayout
+            style="@style/Linearlayoutmargin"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <AutoCompleteTextView
+                    android:id="@+id/m10"
+                    android:hint="Model No"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/q10"
+                    android:layout_toRightOf="@+id/m10"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="25sp"
+                    android:inputType="number"
+                    />
+
+
+                <!--<NumberPicker-->
+                <!--android:layout_toRightOf="@+id/m5"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/num"-->
+                <!--android:theme="@style/NumberPickerText"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;</NumberPicker>-->
+
+
+
+                <Spinner
+                    android:id="@+id/c10"
+
+                    android:layout_toRightOf="@id/q10"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:drawSelectorOnTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/ratesymbol10"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="₹"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <EditText
+                        android:layout_toRightOf="@+id/ratesymbol10"
+                        android:id="@+id/p10"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/r10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

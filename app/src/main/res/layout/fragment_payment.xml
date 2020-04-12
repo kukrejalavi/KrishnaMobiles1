@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".PaymentFragment">
+
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rbt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cash"
+            />
+
+        <RadioButton
+            android:id="@+id/rbt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="100sp"
+            android:layout_toRightOf="@id/rbt1"
+            android:text="Cheque"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="20sp"
+            android:hint="Date"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/bill_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:hint="Bill no"
+            android:inputType="number"
+            android:digits="0123456789,"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="20sp"
+            android:hint="Amount"
+            android:nextFocusDown="@id/chqdate"
+            android:singleLine="true"
+            android:inputType="number"
+            />
+
+
+        <EditText
+            android:id="@+id/chqdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="20sp"
+            android:hint="Cheque Date"
+            android:singleLine="true"
+            android:visibility="gone"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transport"
+            android:layout_gravity="center_horizontal|center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+
+
+                />
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/save"
+                android:text="Clear" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
